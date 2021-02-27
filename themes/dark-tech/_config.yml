@@ -1,9 +1,7 @@
 menu:
-  Home: /dark-tech/
-  Archives: /dark-tech/archives
+  Home: /
+  Archives: /archives
   About: /about
-  GuestBook: /guestbook
-  ## You can modify the url to your own personal setting.
 
 widgets:
 - search
@@ -14,16 +12,12 @@ widgets:
 ## your recent posts show
 - tagcloud
 ## the tag of your articles with an effect of wordcloud
-- weibo
-## your weibo show
 
 - blogroll
 ## friendly link
 
 blogroll:
-  Google: https://www.google.com/
   Github: https://github.com/
-  hijiangtao: http://hijiangtao.github.io/
 
 excerpt_link: Continue Reading
 
@@ -36,20 +30,9 @@ comment:
 share:
   enable: true
   jiathis: true
-  twitter: false
-  google: false
 
 bottom_link:
-  google_plus: 
-  ## e.g. 104684175089936429154 for https://plus.google.com/u/0/104684175089936429154/posts
-  github: hijiangtao
-  twitter: 
-  ## e.g. ffff for https://twitter.com/ffff
-  weibo: hijiangtao
-  facebook: 
-  ## e.g. ffff for https://www.facebook.com/ffff
-  renren: 
-  ## e.g. 333333333 for http://www.renren.com/333333333
+  github: forcemain
 
 logo:
   enable: true  
@@ -75,13 +58,9 @@ fancybox: false
 ## you can change the custom font in head.ejs
 CustomFont: true
 
-## google analytics id, e.g.UA-28532742-2
-google_analytics: UA-48887175-1
-
 ## url of your rss
 ## it is highly recommanded to use rss plugins, https://github.com/hexojs/hexo-generator-feed
-rss: /dark-tech/atom.xml
+rss: /atom.xml
 
 ## for Chinese users
 ChineseUser: true
-## 默认false. 如果你的访客大部分来自中国, 那么请设置为true, cdn将会调换为百度公共库(360 公共库已停止服务,故部分服务仍将采用Google源), 同时lang和content-language也会被修改
